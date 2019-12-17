@@ -13,6 +13,7 @@
     "crud"
   ],
   "scripts": {
+    "start": "node app.js",
     "heroku-postbuild": "npm install --production"
   },
   "homepage": "http://github.com/dannibla/nodejs-postgresql-crud",
