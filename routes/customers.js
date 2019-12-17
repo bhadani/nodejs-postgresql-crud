@@ -1,5 +1,5 @@
 const { Client } = require('pg');
-var connectionString = "postgres://kumrzm:@localhost:5432/testdb";
+var connectionString = process.env.DATABASE_URL;
 
 const client = new Client({
     connectionString: connectionString
