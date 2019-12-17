@@ -23,6 +23,6 @@ app.get('/customers/delete/:id', customers.delete);
 app.get('/customers/edit/:id', customers.edit);
 app.post('/customers/edit/:id', customers.update);
 
-app.listen(4000, function () {
+app.listen(process.env.PORT || 4000, function () {
     console.log('Server is running.. on Port 4000');
 });
